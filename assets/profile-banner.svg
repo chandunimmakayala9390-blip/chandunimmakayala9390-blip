@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">N.N.V.S.S. Chandra — SDE Intern Candidate</title>
+  <desc id="desc">A dark blue and violet developer portfolio banner.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#071425"/>
+      <stop offset="55%" stop-color="#101c3b"/>
+      <stop offset="100%" stop-color="#28144a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <circle cx="1050" cy="65" r="130" fill="#7c3aed" opacity=".16" filter="url(#glow)"/>
+  <circle cx="1090" cy="270" r="175" fill="#0ea5e9" opacity=".12" filter="url(#glow)"/>
+  <path d="M0 286 C165 220 275 355 460 284 C655 209 760 292 930 245 C1055 211 1124 227 1200 190 L1200 360 L0 360 Z" fill="#ffffff" opacity=".04"/>
+  <path d="M0 304 C150 244 280 354 465 300 C640 250 775 315 930 268 C1054 231 1136 250 1200 215" fill="none" stroke="url(#accent)" stroke-width="2" opacity=".72"/>
+  <rect x="76" y="71" width="58" height="7" rx="3.5" fill="url(#accent)"/>
+  <text x="76" y="145" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700" letter-spacing="1">N.N.V.S.S. Chandra</text>
+  <text x="76" y="190" fill="#bfdbfe" font-family="Arial, Helvetica, sans-serif" font-size="22">SDE Intern Candidate  •  Full-Stack Developer  •  ML Learner</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">
+    <rect x="76" y="227" width="194" height="39" rx="19.5" fill="#0c2843" stroke="#38bdf8" stroke-opacity=".55"/>
+    <text x="101" y="252" fill="#e0f2fe">IIIT Guwahati · 2028</text>
+    <rect x="286" y="227" width="191" height="39" rx="19.5" fill="#241640" stroke="#a78bfa" stroke-opacity=".6"/>
+    <text x="312" y="252" fill="#ede9fe">Open to internships</text>
+  </g>
+  <g fill="none" stroke="url(#accent)" stroke-width="2" opacity=".65">
+    <rect x="1030" y="87" width="52" height="52" rx="12"/>
+    <path d="M1044 113 L1055 124 L1075 102"/>
+    <circle cx="1095" cy="168" r="22"/>
+    <path d="M1095 154 V182 M1081 168 H1109"/>
+  </g>
+</svg>

@@ -116,7 +116,7 @@ I am a full-stack developer with an interest in backend systems and real-time ap
 <table>
   <tr>
     <td align="center" width="33%"><b>600+</b><br />DSA problems across platforms</td>
-    <td align="center" width="33%"><b>1658</b><br />Peak LeetCode rating</td>
+    <td align="center" width="33%"><b>1669</b><br />Peak LeetCode rating</td>
     <td align="center" width="33%"><b>1591</b><br />CodeChef DSA rating</td>
   </tr>
 </table>

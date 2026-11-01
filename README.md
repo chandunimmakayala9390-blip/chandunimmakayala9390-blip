@@ -4,11 +4,11 @@
 
 # CHANDRA NIMMAKAYALA
 
-**Computer Science Undergraduate | Backend Engineering | Problem Solving**
+**Computer Science Undergraduate | Aspiring Software Engineer**
 
-B.Tech CSE · IIIT Guwahati · 2024–2028 · CGPA 8.40
+IIIT Guwahati · B.Tech CSE · 2024–2028 · CGPA 8.40
 
-[LinkedIn](https://www.linkedin.com/in/naga-venkata-shanmukha-sai-chandra-nimmakayala-0a023431a/) · [Email](mailto:chandunimmakayala9390@gmail.com) · [GitHub](https://github.com/chandunimmakayala9390-blip) · [LeetCode](https://leetcode.com/u/ch_andu1639/)
+[LinkedIn](https://www.linkedin.com/in/naga-venkata-shanmukha-sai-chandra-nimmakayala-0a023431a/) · [Email](mailto:chandunimmakayala9390@gmail.com) · [LeetCode](https://leetcode.com/u/ch_andu1639/) · [Codolio](https://codolio.com/profile/chandu1639)
 
 </div>
 
@@ -16,125 +16,39 @@ B.Tech CSE · IIIT Guwahati · 2024–2028 · CGPA 8.40
 
 ## About Me
 
-I'm a Computer Science undergraduate at IIIT Guwahati interested in backend engineering, API development, databases, and building reliable software systems.
+Hey! I'm a Computer Science undergraduate at IIIT Guwahati passionate about software engineering, backend development, problem solving and building practical applications.
 
-I enjoy turning ideas into practical applications, measuring their performance, and continuously improving my engineering skills.
+- Currently strengthening my backend engineering skills.
+- Interested in scalable systems, databases and cloud technologies.
+- Practising DSA and preparing for software engineering internships.
+- Always curious about learning new technologies.
 
-Currently looking for **SDE and Backend Engineering internship opportunities**.
+## Tech Stack
 
-## Featured Projects
+**Languages**
 
-### 1. FlowForge — Concurrent HTTP Load Balancer
+`C` `C++` `Java` `Go` `Python` `SQL` `JavaScript`
 
-[Source Code](https://github.com/chandunimmakayala9390-blip/flowforge)
+**Backend & Libraries**
 
-A Java and Spring Boot load balancer supporting multiple backend servers.
+`Spring Boot` `FastAPI` `SQLAlchemy` `JDBC` `WebSockets` `JWT` `bcrypt` `boto3`
 
-**Engineering highlights**
-- Round-robin and weighted request routing.
-- Concurrent backend health monitoring.
-- Configurable timeouts and automatic failover.
-- 6/6 concurrent unit tests passing.
+**Databases**
 
-**Performance benchmark**
+`MySQL` `SQLite`
 
-| Metric | Result |
-|---|---:|
-| Throughput | 5,981 requests/sec |
-| p95 latency | 2.53 ms |
-| Reported request failures | 0% |
-| Load test | 10 virtual users, 30 seconds |
+**Cloud & Tools**
 
-**Request routing architecture**
+`AWS EC2` `AWS S3` `AWS RDS` `Elastic Beanstalk` `Docker` `Git` `GitHub` `Maven` `AWS CLI`
+
+## Technology Map
 
 ```mermaid
 flowchart TD
-    A[Client Request] --> B[Spring Boot Load Balancer]
-    B --> C{Backend Selection}
-    C -->|Round Robin| D[Backend 1]
-    C -->|Weighted Routing| E[Backend 2]
-    D --> F[Health Monitoring]
-    E --> F
-    F --> G[Response to Client]
-```
-
-Technologies: Java, Spring Boot, Maven, k6.
-
-### 2. TaskFlow — Go REST API
-
-[Source Code](https://github.com/chandunimmakayala9390-blip/Task-Flow)
-
-A secure task management backend with authentication and persistent storage.
-
-- Implemented 8 REST API endpoints.
-- JWT authentication and bcrypt password hashing.
-- Ownership validation for user-specific tasks.
-- MySQL integration using parameterized queries.
-- Connection pooling and relational constraints.
-
-**Authentication workflow**
-
-```mermaid
-flowchart TD
-    A[User] --> B[Registration / Login]
-    B --> C[Go REST API]
-    C --> D[Password Verification]
-    D --> E[JWT Generation]
-    E --> F[Authenticated Request]
-    F --> G[Ownership Validation]
-    G --> H[Task CRUD Operations]
-    H --> I[(MySQL Database)]
-```
-
-Technologies: Go, MySQL, JWT, REST APIs.
-
-### 3. PulseBoard — Real-Time Analytics
-
-[Source Code](https://github.com/chandunimmakayala9390-blip/pulseboard)
-
-A real-time event analytics dashboard.
-
-- REST APIs for event ingestion and persistent storage.
-- WebSocket-based live dashboard updates.
-- Event aggregation by type and minute.
-- Live counters, event feeds and events-per-minute charts.
-
-Technologies: Python, FastAPI, SQLite, SQLAlchemy, WebSockets.
-
-### 4. Real Estate DBMS
-
-[Source Code](https://github.com/chandunimmakayala9390-blip/Real_Estate_Dbms)
-
-A database-backed property and deal management application.
-
-- Developed Java modules supporting two user roles.
-- MySQL integration through JDBC.
-- Five core database tables.
-- Three automated report categories: sales, rentals and agent performance.
-
-Technologies: Java, MySQL, JDBC.
-
----
-
-## Technology Stack
-
-| Category | Technologies |
-|---|---|
-| Programming Languages | C, C++, Java, Go, Python, SQL, JavaScript |
-| Backend | Spring Boot, FastAPI |
-| Libraries | SQLAlchemy, JDBC, WebSockets, JWT, bcrypt, boto3 |
-| Databases | MySQL, SQLite |
-| Cloud | AWS EC2, S3, RDS, Elastic Beanstalk |
-| Tools | Git, GitHub, Docker, Maven, AWS CLI, VS Code |
-
-## Technology Relationship Graph
-
-```mermaid
-flowchart TB
     A[Software Engineering]
-    A --> B[Programming]
-    A --> C[Backend Development]
-    A --> D[Cloud and Tools]
+    A --> B[Languages]
+    A --> C[Backend]
+    A --> D[Cloud]
     B --> E[Java]
     B --> F[Go]
     B --> G[Python]
@@ -142,67 +56,58 @@ flowchart TB
     C --> I[Spring Boot]
     C --> J[FastAPI]
     C --> K[REST APIs]
-    C --> L[WebSockets]
-    D --> M[AWS]
-    D --> N[Docker]
-    D --> O[Git and GitHub]
-    C --> P[Databases]
-    P --> Q[MySQL]
-    P --> R[SQLite]
+    D --> L[AWS]
+    D --> M[Docker]
+    D --> N[Git]
 ```
 
----
-
-## Problem Solving
+## Competitive Programming
 
 <div align="center">
 
-| Achievement | Result |
-|---|---:|
+| Achievement | Statistics |
+|:---|:---:|
 | DSA Problems Solved | **800+** |
-| Peak LeetCode Rating | **1669** |
+| LeetCode Peak Rating | **1669** |
 | LeetCode Ranking | **Top 17%** |
 | CodeChef Rating | **1591** |
 | CodeChef Global Rank | **4669** |
 
-[LeetCode Profile](https://leetcode.com/u/ch_andu1639/) · [Codolio](https://codolio.com/profile/chandu1639) · [TakeUForward](https://takeuforward.org/profile/chandu1639)
+[LeetCode](https://leetcode.com/u/ch_andu1639/) · [CodeChef](https://www.codechef.com/) · [Codolio](https://codolio.com/profile/chandu1639) · [TakeUForward](https://takeuforward.org/profile/chandu1639)
 
 </div>
-
-### My GitHub Activity
-
-My actual contribution history, including commits, repositories and activity, is available on my GitHub profile.
-
-[View GitHub Contributions and Activity](https://github.com/chandunimmakayala9390-blip)
-
-[Explore My Repositories](https://github.com/chandunimmakayala9390-blip?tab=repositories)
-
----
 
 ## Education
 
 **Indian Institute of Information Technology Guwahati**
 
-B.Tech in Computer Science and Engineering
+B.Tech in Computer Science and Engineering · 2024–2028
 
-2024–2028 · CGPA: 8.40
+CGPA: **8.40**
 
-**Certifications**
-- 100 Days of Code: The Complete Python Pro Bootcamp — Dr. Angela Yu, 57 hours.
+## Certifications
+
+- 100 Days of Code: The Complete Python Pro Bootcamp — Dr. Angela Yu (57 hours).
 - AWS Foundations: Machine Learning Basics — AWS Training & Certification.
 
-**Relevant Coursework**
+## GitHub
 
-Data Structures and Algorithms, Object-Oriented Programming, Operating Systems, Database Management Systems, Computer Organization, Cloud Computing, Artificial Intelligence, Linear Algebra, Multivariable Calculus, Optimization Techniques, Probability and Statistics, Discrete Mathematics.
+<div align="center">
+
+**Explore my work and contribution history**
+
+[Repositories](https://github.com/chandunimmakayala9390-blip?tab=repositories) · [Contribution Activity](https://github.com/chandunimmakayala9390-blip)
+
+</div>
 
 ---
 
 <div align="center">
 
-## LET'S CONNECT
+**BUILD · LEARN · IMPROVE**
 
-Interested in backend engineering, software development and building practical systems.
+Open to SDE internship opportunities and engineering collaborations.
 
-**[Contact Me](mailto:chandunimmakayala9390@gmail.com)**
+[Let's Connect](mailto:chandunimmakayala9390@gmail.com)
 
 </div>
